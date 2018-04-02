@@ -1,0 +1,56 @@
+.niche {
+  font-family: "Impact";
+  color: white;
+  text-align: left;
+  font-size: 60px;
+  margin-left: 100px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+span {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 40px;
+  padding-top: 40px;
+}
+
+body {
+  background-color: #4b387a;
+}
+
+.gamesList {
+  color: white;
+  background-color: white;
+  border: 5px solid white;
+  height: 830px;
+  width: 620px;
+  margin: auto;
+}
+
+.gamesList div {
+  color: black;
+  background-color: black;
+  border: 3px solid black;
+  height: 270px;
+  width: 200px;
+  float: left;
+}
+
+.gamesList img {
+  height: 270px;
+  width: 190px;
+}
+
+button {
+  background-color: black;
+}
+
+button:hover {background-color: indigo}
+
+button:active {
+  background-color: indigo;
+  transform: translateY(4px);
+}
